@@ -1,2 +1,2 @@
 # Javascript
-Meus projetos com Javascript
+Projetos dedicados ao meu aprendizado com Javascript
