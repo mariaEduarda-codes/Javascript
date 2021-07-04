@@ -1,0 +1,54 @@
+body {
+    background-color: #bababa;
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    border: 2px solid rgba(1, 1, 1, 0.6);
+    width: 50%;
+    margin: 40vh auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+}
+
+.quote {
+    color: #272727;
+    font-size: 18px;
+    margin: 16px auto;
+    text-align: center;
+}
+
+.info {
+    color: #636363;
+    font-size: 14px;
+    margin: 12px auto;
+}
+
+button {
+    width: 25%;
+    align-self: center;
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    border: none;
+    height: 32px;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px #434343;
+}
+
+#addQuote {
+    margin: 16px auto 0 auto;
+}
+
+#generateQuote {
+    margin: 16px auto;
+}
