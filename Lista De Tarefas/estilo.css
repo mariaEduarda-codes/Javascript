@@ -1,0 +1,81 @@
+body {
+    background-color: #BABABA;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #2a2a2a;
+}
+
+.principal {
+    margin: 0 auto;
+    width: 50%;
+    border: 2px solid #272727;
+    box-shadow: 2px 2px 4px #555555;
+}
+
+.container-adicionar {
+    margin: 24px;
+    padding: 8px;
+}
+
+.titulo {
+    text-transform: uppercase;
+    text-align: center;
+    color: #472020;
+}
+
+.container-input {
+    display: flex;
+    margin: 12px auto;
+}
+
+.campo-tarefa {
+    width: 256px;
+    height: 32px;
+    border: none;
+    box-shadow: 2px 2px 2px #555555;
+}
+
+.botao {
+    height: 34px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #555555;
+    background-color: #0c8cd3;
+    color: #f6f4f4;
+}
+
+.botao:hover {
+    background-color: #00b5ff;
+    transition: .5s;
+}
+
+.estilo-tarefa {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 4px;
+}
+
+.botao-check {
+    width: 14px;
+    height: 14px;
+    margin: 4px 8px;
+}
+
+.botao-apagar {
+    border: none;
+    color: #b80000;
+    font-weight: bold;
+    background-color: #BABABA;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 0 4px;
+}
+
+.botao-apagar:hover {
+    color: #550000;
+    transition: .25s;
+}
+
+.tarefa-concluida {
+    text-decoration: line-through;
+}
