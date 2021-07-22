@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="background">
+    <section class="title">
+        <h1>Tic Tac Toe!</h1>
+    </section>
+    <section class="board">
+        <div class="board-square" id="1" onclick="chooseSquare(this.id)"></div>
+        <div class="board-square" id="2" onclick="chooseSquare(this.id)"></div>
+        <div class="board-square" id="3" onclick="chooseSquare(this.id)"></div>
+        <div class="board-square" id="4" onclick="chooseSquare(this.id)"></div>
+        <div class="board-square" id="5" onclick="chooseSquare(this.id)"></div>
+        <div class="board-square" id="6" onclick="chooseSquare(this.id)"></div>
+        <div class="board-square" id="7" onclick="chooseSquare(this.id)"></div>
+        <div class="board-square" id="8" onclick="chooseSquare(this.id)"></div>
+        <div class="board-square" id="9" onclick="chooseSquare(this.id)"></div>
+    </section>
+    <section class="info">
+        <span id="winner"></span>
+        <span id="selected-player"></span>
+        <button type="button" class="restart">Restart!</button>
+    </section>
+</main>
+<script src="ticTacToe.js"></script>
+</body>
+</html>
