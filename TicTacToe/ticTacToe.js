@@ -92,8 +92,3 @@ function checksSequence(sq1, sq2, sq3){
 
     return areEqual;
 }
-
-// else {
-//     setTimeout(() => alert('Cats Game!'), 200);
-//     setTimeout(() => window.location.reload(), 500);
-// }
